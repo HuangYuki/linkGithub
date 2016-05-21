@@ -1,0 +1,116 @@
+
+body{
+  height: 1170px;
+  margin: auto;
+  background-color: #C5E0FF;
+}
+/*==========haeder=========================*/
+.header{
+/*  height: 15%;*/
+  background-color: #395723;
+}
+
+header img{
+  margin-left: 5%;
+  width: 200px;
+  hight:200px;
+}
+
+nav{
+  box-sizing: border-box;
+}
+
+nav a{
+  text-decoration:none;
+  color: black;
+  font-size: 10pt;
+  padding: 0% 4%;
+  margin-right: 4%;
+  box-sizing: border-box;
+
+}
+/* Body==========================*/
+.contant{
+  /*height: 75%;*/
+  background-color: #C5E0B7;
+}
+
+.contant > img{
+  width: 80%;
+  /*height: 690px;*/
+  margin: 0px 10% ;
+}
+.contant button{
+
+}
+.flex{
+  margin-top: 5% ;
+  display: flex;
+  justify-content:space-around;
+}
+.flex button{
+  width: 80px;
+  height: 80px;
+}
+.flex button img{
+  width: 100%;
+  height: 100%;
+}
+/*subBody======================*/
+.subBody{
+  background-color: #FED964;
+  padding: 10% 10%;
+  display: block;
+}
+.subBody >div{
+
+}
+.subBody img{
+}
+.Explanation{
+}
+
+.Explanation p {
+/*  width: 265px;*/
+}
+
+.Explanation a{
+  text-decoration:none;
+  color: black;
+  width: 10%;
+  height: 10%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  background-color: #DBDBDB;
+  font-size: 12pt;
+  /*margin-left: 60px;*/
+  border-radius: 15%;
+}
+/*footer======================*/
+footer{
+  padding: 5% 10%;
+  height: 10%;
+  background-color: #C55B11;
+  box-sizing: border-box;
+}
+.link{
+  float: right;
+}
+.link img{
+  width: 50px;
+  height: 50px;
+  /*margin-right: 10px;*/
+}
+/**/
+.A{
+  background-color: #A8D18D;
+}
+.Explanation .B{
+  background-color: #777777;
+}
+.slider{
+  display: none;
+}
+.isActive{
+  display: block;
+}
